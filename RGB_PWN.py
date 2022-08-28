@@ -41,7 +41,7 @@ while True:
 			r.start(decresing)
 			g.start(increasing)
 			b.start(increasing)
-			print(increasing,decresing)
+			print(decresing,increasing,increasing)
 			sleep(FAST)
 
 		#MAGENTA (Half Wave)
@@ -51,7 +51,7 @@ while True:
 			r.start(decresing)
 			g.start(increasing)
 			b.start(decresing)
-			print(increasing,decresing)
+			print(decresing,increasing,decresing)
 			sleep(SLOW)
 
 		#WHITE (Half Wave)
@@ -61,7 +61,7 @@ while True:
 				r.start(increasing)
 				g.start(decresing)
 				b.start(increasing)
-				print(increasing,decresing)
+				print(increasing,decresing,increasing)
 				sleep(FAST)
 
 		#GREEN (Half Wave)
@@ -71,7 +71,7 @@ while True:
 			r.start(increasing)
 			g.start(decresing)
 			b.start(increasing)
-			print(increasing,decresing)
+			print(increasing,decresing,increasing)
 			sleep(SLOW)
 
 		#WHITE (Half Wave)
@@ -81,7 +81,7 @@ while True:
 			r.start(decresing)
 			g.start(increasing)
 			b.start(decresing)
-			print(increasing,decresing)
+			print(decresing,increasing,decresing)
 			sleep(FAST)
 
 		#YELLOW (Half Wave)
@@ -91,7 +91,7 @@ while True:
 			r.start(decresing)
 			g.start(decresing)
 			b.start(increasing)
-			print(increasing,decresing,decresing)
+			print(decresing,decresing,increasing)
 			sleep(SLOW)
 
 		#WHITE (Half Wave)
@@ -101,7 +101,7 @@ while True:
 			r.start(increasing)
 			g.start(increasing)
 			b.start(decresing)
-			print(increasing,decresing)
+			print(increasing,increasing,decresing)
 			sleep(FAST)
 
 		#WHITE FULL WAVE
@@ -111,7 +111,7 @@ while True:
 			r.start(decresing)
 			g.start(increasing)
 			b.start(increasing)
-			print(increasing,decresing,decresing)
+			print(decresing,increasing,increasing)
 			sleep(FAST)
 
 	except KeyboardInterrupt as e:
